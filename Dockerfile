@@ -1,7 +1,7 @@
 FROM openjdk:17-ea-jdk-oracle
 MAINTAINER faiyaz
 # Refer to Maven build -> finalName
-ARG JAR_FILE=target/ExceptionHandlingDemo-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=ExceptionHandlingDemo-0.0.1-SNAPSHOT.jar
 
 # cd /opt/app
 WORKDIR /opt/app
