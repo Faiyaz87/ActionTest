@@ -31,7 +31,7 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Build Docker Image
       id: buildAndPushImage
-      uses: abhishek-070/docker-image-build-push-action@v1.0
+      uses: beehivewarrior/docker-hub-builder@v1.0
       with:
           registry_url: 'docker.io'
           repository_name: 'faiyazahmeddocker/test-actions-epo'
